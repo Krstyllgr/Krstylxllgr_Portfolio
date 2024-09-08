@@ -1,0 +1,233 @@
+*{ 
+  background-color: #1E1E1E;
+}
+
+.navi {
+  background-color: #03F6CC;
+  margin-left: auto;
+}
+
+.link-tag {
+  background-color: #03F6CC; 
+  padding: 5%;
+  transition: transform 0.3s ease;
+}
+
+.custom-navbar, .navbar-collapse, .navbar-brand, .container-one{
+  background-color: #03F6CC; 
+}
+
+.custom-navbar .link-tag{
+  color: #1E1E1E; 
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: none;
+}
+
+.custom-navbar .navbar-brand {
+  color: #1E1E1E; 
+  font-weight: 500;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.custom-navbar .link-tag:hover {
+  color: #fff; 
+  transform: scale(1.2);
+}
+
+.container-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.div-image {
+  margin: auto;
+  max-width: 100%;
+}
+
+.me-img {
+  width: 40vh;;
+}
+
+.div-name {
+  margin: auto;
+  color: #fff;
+  font-family: 'Source Code Pro', monospace;
+  max-width: 100%;
+}
+
+.div-name h1 {
+  font-weight: bolder;
+  font-size: 8vh;
+}
+
+.h-name {
+  color: #03F6CC;
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the text doesn't overflow */
+  border-right: .10em solid #fff; /* Cursor effect */
+  white-space: nowrap; /* Keeps the text in a single line */
+  margin: 0 auto; /* Center the text */
+  letter-spacing: .15em; /* Space between letters */
+  animation: typing 4s steps(40, end) infinite, blink-caret 1s step-end infinite;
+  color: #03F6CC;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #fff; }
+}
+
+.div-name p {
+  font-weight: lighter;
+  font-size: small;
+}
+
+.socials {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.icon-link {
+  padding: 1.5vh;
+}
+
+.icon {
+  width: 4vh;
+  color: #03F6CC;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+/* About Me */
+.first-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  height: 90vh;
+  gap: 20px; 
+  padding: 0 20px; 
+}
+
+.first-container > div {
+  flex: 1; 
+}
+
+.div-about-img {
+  margin: auto;
+  max-width: 100%;
+}
+
+.aboutMe-img {
+  width: 55vh; 
+  height: 55vh; 
+  background-image: url("./aboutMe.jpg");
+  background-size: cover; 
+  background-position: center; 
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px dashed #03F6CC;
+  border-radius: 50vh;
+}
+
+.div-explain {
+  color: #fff;
+}
+
+.div-explain h1 {
+  color: #03F6CC;
+}
+
+.div-explain p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.second-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  height: 90vh;
+  gap: 20px; 
+  padding: 0 20px; 
+}
+
+.gradPic-container {
+  margin: auto;
+  max-width: 100%;
+  perspective: 1000px; /* Perspective for the 3D flip effect */
+}
+
+.gradPic-img {
+  width: 55vh; 
+  height: 55vh; 
+  background-image: url("./grad.jpg");
+  background-size: cover; 
+  background-position: center; 
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px dashed #03F6CC;
+  border-radius: 50%;
+  transition: transform 0.6s; /* Smooth transition for the flip effect */
+  transform-style: preserve-3d; /* Enables 3D transformations */
+  position: relative; /* Relative positioning for pseudo-element */
+}
+
+.school {
+  color: #fff;
+}
+
+.third-container {
+  margin-top: 10vh;
+  height: 180vh;
+  padding: 20px; /* Optional: Add some padding to the container */
+}
+
+.achievements-container {
+  text-align: center; /* Center align text inside the container */
+}
+
+.div-one,
+.div-two {
+  display: inline-block; /* Make the divs appear side by side */
+  width: 45%; /* Adjust width as needed */
+  margin: 10px; /* Optional: Add some margin between the divs */
+}
+
+.div-one h4 {
+  color: #fff;
+  margin-top: 8vh;
+}
+
+.div-two h4 {
+  color: #fff;
+}
+
+.div-three,
+.div-four {
+  display: inline-block; 
+  width: 45%; 
+  margin: 10px; 
+  margin-top: 22vh;
+}
+
+.div-three h4 {
+  color: #fff;
+}
